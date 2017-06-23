@@ -1,0 +1,127 @@
+body{
+    font-family: 'Lato-Regular', sans-serif;
+    color: white;
+    
+}
+footer{
+    width: 1368px;
+    margin: 0 auto;
+    padding: 30px 30px 0 30px;
+}
+.logoAndPhoneNumbers {
+	background: url(images/tlo.png);
+    height: 674px;
+    width: 683px;
+    float: left;
+   
+    
+}
+.logo{
+    
+    height: 105px;
+    width: auto;
+    background: url(images/logo.png) center no-repeat;
+    padding: 65px 177px 73px 213px;
+
+}
+
+.marLeft {
+	padding-left: 198px;
+}
+.contact {
+	font-size: 36px;
+    font-weight: 100;
+    padding-bottom: 42px;
+}
+.phoneNumber {
+	font-size: 48px;
+    font-weight: 100;
+    padding-bottom: 61px;
+
+}
+.phoneNumber > span {
+    display: block;
+    padding-top: 35px;
+}
+.box {
+	box-sizing: border-box;
+}
+.form{
+    height: 674px;
+    width: 685px;
+    float: left;
+}
+form{
+    box-sizing: border-box;
+    padding: 120px 155px 10px 55px;
+}
+input{
+    display: block;
+    box-sizing: border-box;
+    height: 42px;
+    width: 365px;
+    border-radius: 5px;
+    margin-bottom: 33px;
+    border-width:1px;
+}
+input:placeholder-shown{
+    font-size: 18px;
+    padding-top: 15px;
+    padding-left: 19px;
+    padding-bottom: 15px;
+}
+::-webkit-input-placeholder {
+    color:    #000;
+}
+:-moz-placeholder {
+    color:    #000;
+}
+::-moz-placeholder {
+    color:    #000;
+}
+:-ms-input-placeholder {
+    color:    #000;
+}
+.title {
+	font-size: 36px;
+    color: #000;
+    padding-bottom: 35px;
+}
+input#checkConfirm{
+    margin-bottom: 0;
+    height: auto;
+    width: auto;
+    float: left;
+}
+input[type="checkbox"]+label{
+    display: inline-block;
+}
+label{
+    font-size: 10px;
+    width: 210px;
+    height: auto;
+    color: #000;
+    float: left;
+}
+.button{
+   padding: 40px 76px 102px 290px; 
+    border: none;
+  
+}
+
+button{
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+	background: url(images/button.png) no-repeat;
+    font-family: 'lato-black', sans-serif;
+    font-size: 30.55px;
+    font-weight: 600;
+    color: #fff;
+    height: 39px;
+    width: 129px;
+    border-radius: 5px;
+    line-height: 10px;
+    
+    
+}
